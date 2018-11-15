@@ -35,7 +35,7 @@ Usage php my_docker_thin.php [Source] [Target] [Base]
   mkdir($tmp_path,true);
 
   #step 0 remove target
-  echo "\nStep 0 remoev target {$T_D}...\n";
+  echo "\nStep 0 remove target {$T_D}...\n";
   $CMD = "docker rmi {$T_D} --force";
   my_system($CMD);
 
