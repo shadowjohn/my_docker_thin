@@ -2,8 +2,7 @@
 我的 docker 映像檔廋身機 linux 版專用
 
 要求：<br>
-　　linux 環境<br>
-　　php<br>
+　　linux 環境<br>　　
 <br>
 動機：<br>
 　　　　好不容易把 docker 的環境作出來，但容量也因為太多步驟過程變超肥，又懶的去作dockerfile，這時只要用這支小程式跑一次，把需要東西獨立抽出來瘦身。
@@ -18,7 +17,10 @@
 使用方式：<br>
 　　php my_docker_thin.php [Source] [Target] [Base]<br>
   <br>
-　　例如：php my_docker_thin.php myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
+　　例如：
+      ./my_docker_thin.sh myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
+　　或 PHP 版：<br>        
+      php my_docker_thin.php myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
 <br>
 縮圖參考：<br>
 　　<img src="screenshot/screenshot_01.png">   
