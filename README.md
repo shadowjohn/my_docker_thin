@@ -18,9 +18,10 @@
 　　./my_docker_thin.sh [Source] [Target] [Base]<br>
 　　php my_docker_thin.php [Source] [Target] [Base]<br>
   <br>
-　　例如：<br>
+　　ShellScript：<br>
 　　　　./my_docker_thin.sh myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
-　　或 PHP 版：<br>        
+  <br>
+　　PHP 版：<br>
 　　　　php my_docker_thin.php myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
 <br>
 縮圖參考：<br>
