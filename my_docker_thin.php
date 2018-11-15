@@ -1,4 +1,11 @@
 <?php
+# *******************************************************
+# * Author: FeatherMountain                               
+# * Github: https://github.com/shadowjohn/my_docker_thin 
+# * Date: 2018-11-15                    
+# * Version: 0.1
+# *             
+# *******************************************************
 function my_system($cmd)
 {
   $fp=popen($cmd,"r");

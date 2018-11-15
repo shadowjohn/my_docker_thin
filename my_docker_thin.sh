@@ -1,7 +1,14 @@
 #!/bin/bash
+# *******************************************************
+# * Author: FeatherMountain                               
+# * Github: https://github.com/shadowjohn/my_docker_thin 
+# * Date: 2018-11-15                    
+# * Version: 0.1
+# *             
+# *******************************************************
 message="\nUsage ./my_docker_thin.sh [Source] [Target] [Base]\n
 \n
-\tExample : ./my_docker_thin.php gis_pdal_strip:0.01 gis_pdal_strip:0.02 docker.io/fedora:latest\n
+  Example : ./my_docker_thin.php gis_pdal_strip:0.01 gis_pdal_strip:0.02 docker.io/fedora:latest\n
 \n  
 "
 if [ $# != "3" ];then 
