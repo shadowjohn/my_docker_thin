@@ -15,12 +15,13 @@
    　　...<br>
   <br>
 使用方式：<br>
+　　./my_docker_thin.sh [Source] [Target] [Base]<br>
 　　php my_docker_thin.php [Source] [Target] [Base]<br>
   <br>
-　　例如：
-      ./my_docker_thin.sh myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
+　　例如：<br>
+　　　　./my_docker_thin.sh myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
 　　或 PHP 版：<br>        
-      php my_docker_thin.php myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
+　　　　php my_docker_thin.php myimage:0.01 myimage_release:0.01 docker.io/fedora:latest<br>
 <br>
 縮圖參考：<br>
 　　<img src="screenshot/screenshot_01.png">   
